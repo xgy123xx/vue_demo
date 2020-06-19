@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-axios.defaults.baseURL = "http://localhost:8081/"
+axios.defaults.baseURL = "http://www.havename.cn:8080/"
 
 // 获取steam游戏数据
 export const getGameDate = (device)=>{
