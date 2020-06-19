@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.container {
+  width: 1180px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #e6e6e6;
+}
+
+body {
+  background-image: url(http://www.havename.cn/static/blog/img/shattered_2X.png);
+}
+
+/* 文章标题li标签样式 */
+/* link--visited--hover--focus--active */
+.article-title a:hover {
+    text-decoration: underline;
+    color: #ff6666;
+  }
+  
+.article-title {
+  padding: 0 60px 15px 0;
+  position: relative;
+}
+
+.article-title:last-child {
+  padding-bottom: 0px;
+}
+
+.article-title .article-c {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.article-title .article-time {
+  color: #666;
+  position: absolute;
+  right: 20px;
+  top: 0;
+}
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}

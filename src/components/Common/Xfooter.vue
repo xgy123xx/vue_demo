@@ -1,0 +1,34 @@
+<template>
+  <div class="myfooter">
+    <hr />
+    <a rel="nofollow" href="http://beian.miit.gov.cn" target="_blank">皖ICP备20000656号</a>
+    <div style="width:300px;margin:0 auto; padding:20px 0;">
+      <img src="http://havename.cn/static/blog/img/备案图标.png" alt />
+      <a
+        target="_blank"
+        href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=34182102000191"
+        style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"
+      >
+        <img src style="float:left;" />
+        <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">
+          皖公网安备
+          34182102000191号
+        </p>
+      </a>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style scoped>
+  .myfooter{
+      width: 1200px;
+      /* background-color: #e6e6e6; */
+      margin: 15px auto;
+      text-align: center;
+  }
+
+</style>
